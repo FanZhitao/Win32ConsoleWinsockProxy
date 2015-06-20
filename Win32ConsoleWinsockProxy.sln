@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32ConsoleWinsockProxy", "Win32ConsoleWinsockProxy\Win32ConsoleWinsockProxy.vcxproj", "{425E7C95-031B-482D-8D58-7ED4ACCF1F44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExampleClient", "ExampleClient\ExampleClient.vcxproj", "{9F53AAC6-E5D8-4D8E-84A0-A181D6FF3B86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExampleServer", "ExampleServer\ExampleServer.vcxproj", "{B18B8CE8-420D-4C7C-89A7-069261DD2610}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExampleThreadPool", "ExampleThreadPool\ExampleThreadPool.vcxproj", "{CF22638E-3790-4405-A20E-FA729B1D5349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{425E7C95-031B-482D-8D58-7ED4ACCF1F44}.Debug|x86.ActiveCfg = Debug|Win32
+		{425E7C95-031B-482D-8D58-7ED4ACCF1F44}.Debug|x86.Build.0 = Debug|Win32
+		{425E7C95-031B-482D-8D58-7ED4ACCF1F44}.Release|x86.ActiveCfg = Release|Win32
+		{425E7C95-031B-482D-8D58-7ED4ACCF1F44}.Release|x86.Build.0 = Release|Win32
+		{9F53AAC6-E5D8-4D8E-84A0-A181D6FF3B86}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F53AAC6-E5D8-4D8E-84A0-A181D6FF3B86}.Debug|x86.Build.0 = Debug|Win32
+		{9F53AAC6-E5D8-4D8E-84A0-A181D6FF3B86}.Release|x86.ActiveCfg = Release|Win32
+		{9F53AAC6-E5D8-4D8E-84A0-A181D6FF3B86}.Release|x86.Build.0 = Release|Win32
+		{B18B8CE8-420D-4C7C-89A7-069261DD2610}.Debug|x86.ActiveCfg = Debug|Win32
+		{B18B8CE8-420D-4C7C-89A7-069261DD2610}.Debug|x86.Build.0 = Debug|Win32
+		{B18B8CE8-420D-4C7C-89A7-069261DD2610}.Release|x86.ActiveCfg = Release|Win32
+		{B18B8CE8-420D-4C7C-89A7-069261DD2610}.Release|x86.Build.0 = Release|Win32
+		{CF22638E-3790-4405-A20E-FA729B1D5349}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF22638E-3790-4405-A20E-FA729B1D5349}.Debug|x86.Build.0 = Debug|Win32
+		{CF22638E-3790-4405-A20E-FA729B1D5349}.Release|x86.ActiveCfg = Release|Win32
+		{CF22638E-3790-4405-A20E-FA729B1D5349}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
